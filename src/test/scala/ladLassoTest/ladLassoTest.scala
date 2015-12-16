@@ -6,7 +6,7 @@ import org.apache.spark.SparkConf
 import org.scalatest._
 import org.apache.spark.mllib.linalg.{ Vectors, Vector, Matrices, Matrix }
 
-class dantzigADMMTest extends FunSuite {
+class ladLassoTest extends FunSuite {
 
   val lad = new LADLassoADMM(
     convergenceTol = 1e-3,
