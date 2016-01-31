@@ -17,7 +17,7 @@ class ladLassoTest extends FunSuite {
   val rand = new scala.util.Random()
 
   val conf = new SparkConf()
-    .setAppName("dantzigTest")
+    .setAppName("ladLassoTest")
     .setMaster("local[2]")
     .set("spark.executor.memory", "1g")
     .set("spark.driver.memory", "1g")

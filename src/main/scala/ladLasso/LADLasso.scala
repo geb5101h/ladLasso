@@ -34,8 +34,7 @@ class LADLassoADMM(
 
     /* 
      * Currently only supports DenseVector
-     * TODO: SparseVector support for large d,
-     * RowMatrix support for A for large n.
+     * TODO: SparseVector support for large d
      */
 
     val mat = new RowMatrix(data
